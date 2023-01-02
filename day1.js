@@ -18,6 +18,7 @@ if (!noDupNums) { console.log("Passed.") }
 // Given a list of nums, determine the largest contiguous sub array.
 
 function calcLargestSub(nums) {
+    // This solution is O(n). Another solution is to start at the 0 idx, create a subarray, and for each subarray going one by one, compute the next largest subarray.
     let currentSubArray = nums[0];
     let maxSubArray = nums[0];
 
