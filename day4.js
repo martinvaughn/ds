@@ -135,7 +135,7 @@ const doBinarySearch = () => {
 
     const bTree = new BTree(n3);
 
-    bTree.binarySearch(4); // O(log n)
+    bTree.binarySearch(9); // O(log n)
 
     // .        3
     // .      /   \
