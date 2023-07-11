@@ -1,1 +1,1 @@
-# data-structures-practice
+# data structures and other random things
