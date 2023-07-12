@@ -10,7 +10,6 @@ class LinkedListQueue {
   constructor() {
     this.front  = null;
     this.back = null;
-    this.length = 1;
   }
 
   iterate() {
